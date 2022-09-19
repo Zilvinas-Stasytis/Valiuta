@@ -40,7 +40,7 @@ void BuyingZlot(double euro){
 void BuyingBYRouble(double euro){
     string c;
     double Total;
-    Console.WriteLine("Įveskite dolerio kurso koeficientą");
+    Console.WriteLine("Įveskite rublio kurso koeficientą");
     c = Console.ReadLine();
     double course = Convert.ToDouble(c);
     Total = course * euro;
